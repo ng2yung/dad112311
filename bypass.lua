@@ -49,6 +49,7 @@ end
 local TweenService = game:GetService("TweenService")
 
 local gui = Instance.new("ScreenGui")
+gui.Draggable = true
 local GazerMain = Instance.new("Frame")
 local GazerTitle = Instance.new("TextLabel")
 local GazerTitle2 = Instance.new("TextLabel")
